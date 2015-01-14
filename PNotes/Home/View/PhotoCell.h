@@ -11,4 +11,5 @@
 #import "PhotoStackView.h"
 @interface PhotoCell : UITableViewCell <PhotoStackViewDataSource, PhotoStackViewDelegate>
 @property (nonatomic,strong) PhotoFrameModel *photoFrame;
+@property (nonatomic,strong) PhotoModel *photoModel;
 @end

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface PhotoModel : NSObject
-@property (nonatomic,strong) NSMutableArray* pic_urls;
+@property (nonatomic,strong) NSArray* pic_urls;
 @property (nonatomic,copy) NSString* text;
 @property (nonatomic,copy) NSString* time;
 @end

@@ -15,7 +15,7 @@
 
 static BOOL const BorderVisibilityDefault = YES;
 static CGFloat const BorderWidthDefault = 5.0f;
-static CGFloat const PhotoRotationOffsetDefault = 4.0f;
+static CGFloat const PhotoRotationOffsetDefault = 10.0f;
 
 @interface PhotoStackView()
 

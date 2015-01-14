@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A106B371A65FE6400500C88 /* time_mark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A106B341A65FE6400500C88 /* time_mark.jpg */; };
+		0A106B381A65FE6400500C88 /* 时间轴-线.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A106B351A65FE6400500C88 /* 时间轴-线.png */; };
+		0A106B391A65FE6400500C88 /* time_mark_point.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A106B361A65FE6400500C88 /* time_mark_point.png */; };
+		0A106B3B1A65FEAF00500C88 /* content_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A106B3A1A65FEAF00500C88 /* content_bg.png */; };
+		0A106B3F1A663A7300500C88 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A106B3E1A663A7300500C88 /* Reveal.framework */; };
 		3C1CBAAB1A35DEFA00927D7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1CBAAA1A35DEFA00927D7D /* main.m */; };
 		3C1CBAAE1A35DEFA00927D7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1CBAAD1A35DEFA00927D7D /* AppDelegate.m */; };
 		3C1CBAB61A35DEFA00927D7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1CBAB51A35DEFA00927D7D /* Images.xcassets */; };
@@ -70,6 +75,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A106B341A65FE6400500C88 /* time_mark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = time_mark.jpg; sourceTree = "<group>"; };
+		0A106B351A65FE6400500C88 /* 时间轴-线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "时间轴-线.png"; sourceTree = "<group>"; };
+		0A106B361A65FE6400500C88 /* time_mark_point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_mark_point.png; sourceTree = "<group>"; };
+		0A106B3A1A65FEAF00500C88 /* content_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_bg.png; sourceTree = "<group>"; };
+		0A106B3E1A663A7300500C88 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		3C1CBAA51A35DEFA00927D7D /* PNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1CBAA91A35DEFA00927D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C1CBAAA1A35DEFA00927D7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -168,6 +178,7 @@
 				3CE2054C1A388E8C004F4967 /* Foundation.framework in Frameworks */,
 				3CE2054A1A388E80004F4967 /* CoreGraphics.framework in Frameworks */,
 				3CE205481A388E68004F4967 /* UIKit.framework in Frameworks */,
+				0A106B3F1A663A7300500C88 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,9 +192,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A106B321A65FDD700500C88 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0A106B3A1A65FEAF00500C88 /* content_bg.png */,
+				0A106B341A65FE6400500C88 /* time_mark.jpg */,
+				0A106B351A65FE6400500C88 /* 时间轴-线.png */,
+				0A106B361A65FE6400500C88 /* time_mark_point.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		3C1CBA9C1A35DEFA00927D7D = {
 			isa = PBXGroup;
 			children = (
+				0A106B3E1A663A7300500C88 /* Reveal.framework */,
 				3C1CBAA71A35DEFA00927D7D /* PNotes */,
 				3C1CBAC11A35DEFA00927D7D /* PNotesTests */,
 				3C1CBAA61A35DEFA00927D7D /* Products */,
@@ -278,6 +301,7 @@
 		3C1CBAD71A35E92500927D7D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A106B321A65FDD700500C88 /* images */,
 				3CE2054D1A38A4F1004F4967 /* PhotoStack */,
 				3CE205551A38A54F004F4967 /* PhotoView.h */,
 				3CE205561A38A54F004F4967 /* PhotoView.m */,
@@ -557,16 +581,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CE205631A38A666004F4967 /* photo5.jpg in Resources */,
+				0A106B391A65FE6400500C88 /* time_mark_point.png in Resources */,
 				3CE205641A38A666004F4967 /* photo6.jpg in Resources */,
+				0A106B381A65FE6400500C88 /* 时间轴-线.png in Resources */,
 				3C1CBAB91A35DEFA00927D7D /* LaunchScreen.xib in Resources */,
 				3C6947511A3DA4E500E9AD39 /* MBProgressHUD.bundle in Resources */,
 				3CE205601A38A666004F4967 /* photo2.jpg in Resources */,
+				0A106B371A65FE6400500C88 /* time_mark.jpg in Resources */,
 				3CE2055F1A38A666004F4967 /* photo1.jpg in Resources */,
 				3C6947541A3DA4E500E9AD39 /* MJPhotoBrowser.bundle in Resources */,
 				3CE205531A38A50D004F4967 /* PhotoBorder.png in Resources */,
 				3C1CBAB61A35DEFA00927D7D /* Images.xcassets in Resources */,
 				3CE205611A38A666004F4967 /* photo3.jpg in Resources */,
 				3CE205541A38A50D004F4967 /* PhotoBorder@2x.png in Resources */,
+				0A106B3B1A65FEAF00500C88 /* content_bg.png in Resources */,
 				3CE205621A38A666004F4967 /* photo4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,7 +714,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -721,7 +749,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -732,6 +760,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -743,6 +775,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
